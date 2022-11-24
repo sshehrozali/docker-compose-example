@@ -10,5 +10,5 @@ more than one Docker container than in order to make every container live you ne
 In order to solve this problem we can create a compose file and specify all our containers inside `docker-compose.yaml` file.
 
 ##### How to run Docker compose file?
-* `docker-compose [filename.yaml]` up - to start Docker compose
-* `docker-compose [filename.yaml]` down - to stop Docker compose
+* `docker-compose -f [filename.yaml]` up - to start Docker compose
+* `docker-compose -f [filename.yaml]` down - to stop Docker compose
